@@ -36,9 +36,6 @@ The system comprises two distinct components operating over a unidirectional dat
 
 This project strictly adheres to safety-critical engineering principles often neglected in standard security tools. The rationale for these decisions is outlined below.
 
-### British English Standardisation
-All documentation, variable nomenclature, and comments utilise British English (e.g., `colour`, `serialise`, `behaviours`). This decision maintains consistency with UK-based academic and defence standards (e.g., NCSC guidelines) and ensures a unified linguistic tone throughout the codebase.
-
 ### The "Power of Ten" Rule Set
 The C sensor is engineered in strict compliance with the NASA/JPL "Power of Ten" rules for safety-critical code. This ensures the sensor is deterministic and formally verifiable.
 * **No Dynamic Allocation:** `malloc` and `free` are strictly forbidden to prevent memory leaks and heap fragmentation.
